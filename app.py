@@ -3,7 +3,7 @@ import requests
 from flask import Flask, render_template, request
 import markdown  # For pretty code/explanation display
 
-API_KEY = "AIzaSyAts5SuLCYLZJn41Bdamsry_n2rm-hffgA"  # <-- Replace with your Gemini API key
+API_KEY = replace your key  # <-- Replace with your Gemini API key
 
 def chat_with_muffin(prompt):
     url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
