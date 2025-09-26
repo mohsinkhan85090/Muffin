@@ -1,11 +1,11 @@
-#  Muffin Assistant (Gemini)  
+#  Muffin Assistant  
 > **A beautiful, animated, dark-themed AI assistant web app powered by Google Gemini & Flask**  
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-%F0%9F%92%97-lightblue?logo=flask)](https://flask.palletsprojects.com/)
 [![Gemini API](https://img.shields.io/badge/Gemini%20API-Google-yellow?logo=google)](https://ai.google.dev/)
-[![UI](https://img.shields.io/badge/UI-Animated%20Dark%20Theme-purple?logo=webcomponents.org)]
-[![License](https://img.shields.io/badge/License-MIT-green?logo=github)]
+![UI](https://img.shields.io/badge/UI-Animated%20Dark%20Theme-purple?logo=webcomponents.org)
+![License](https://img.shields.io/badge/License-MIT-green?logo=github)
 
 ---
 
