@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Muffin Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Fira+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="gradient-bg"></div>
+    <div class="container animated-fadein">
+        <h1 class="logo-glow">Muffin Assistant</h1>
+        <form method="post" class="ask-form">
+            <input type="text" name="user_input" placeholder="Type your question..." required autofocus class="input-glow">
+            <button type="submit" class="btn-animated">Ask Muffin</button>
+        </form>
+        <div class="theme-toggle" onclick="toggleTheme()">🌜</div>
+        {% if answer_html %}
+        <div class="answer animated-slidein">
+            <strong class="muffin-label">Muffin:</strong>
+            {{ answer_html|safe }}
+        </div>
+        {% endif %}
+        <footer>
+            <span>Made by <a href="https://github.com/mohsinkhan85090" target="_blank">mohsinkhan85090</a></span>
+        </footer>
+    </div>
+    <script>
+        // Simple live theme toggle
+        function toggleTheme() {
+            document.body.classList.toggle('light-theme');
+        }
+    </script>
+</body>
+</html>
