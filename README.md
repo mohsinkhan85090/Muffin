@@ -1,5 +1,5 @@
 #  Muffin Assistant  
-> **An animated, dark-themed AI assistant web app powered by Google Gemini & Flask**  
+> **AI assistant web app powered by Google Gemini & Flask**  
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-%F0%9F%92%97-lightblue?logo=flask)](https://flask.palletsprojects.com/)
